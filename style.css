@@ -1,0 +1,69 @@
+#wsp{
+    font-weight: bold;
+    color:rgb(52, 116, 94);
+    text-decoration: none;
+    display: flex;
+    width: 246px;
+    height: 35px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(164, 240, 157, 0.86);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+#wsp:hover{
+    color:rgb(37, 95, 75);
+    background: rgba(121, 177, 116, 0.86);
+}
+.buttons{
+    font-weight: bold;
+    color:rgb(52, 93, 116);
+    text-decoration: none;
+    display: flex;
+    width: 127px;
+    height: 35px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #80C2FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.buttons:hover{
+    color:rgb(27, 54, 77);
+    background: #5d91c2;
+}
+#logo{
+    width: 130px;
+    height: 133px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+h1{
+    color: #29212B;
+    text-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%; /* 0px */
+    letter-spacing: 5.3px;
+}
+body{
+    background: linear-gradient(180deg, rgba(0, 56, 255, 0.22) 75.52%, rgba(77, 71, 108, 0.22) 100%);
+
+
+}
+#fondo{
+    margin: 0px;
+    width: 1512.5px;
+    height: 500px;
+    flex-shrink: 0;
+}
